@@ -32,7 +32,7 @@ def easy_paginate_colab(base_path,slide_images=[]):
       requirejs.config({
         paths: {
           base: '/static/base',
-          "easyPaginate": "//raw.githubusercontent.com/shivas-ai/shivas-ai.github.io/main/assets/js/easypaginate/jquery.easyPaginate",
+          "easyPaginate": "//storage.googleapis.com/public_js_modules/easypaginate/jquery.easyPaginate",
           jquery: '//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min',
         },
       });
